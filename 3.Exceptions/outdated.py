@@ -34,7 +34,7 @@ def method1(x = user_input):
 def method2(z = user_input):
     z = z.replace(",","")
     z = z.split()
-    pdb.set_trace()
+    # pdb.set_trace()
     # print(type(z[1]))
     # print(z[1])
     # print(type(z[1]))

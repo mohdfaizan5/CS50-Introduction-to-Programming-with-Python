@@ -1,4 +1,5 @@
 #Program that ommits(removes) vowels (A,E,I,O,U) when inputed as upper or lower case.
+#Commit check
 
 #Step1: taking input from user as "Input: "
 s = input("Input: ")

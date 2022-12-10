@@ -1,7 +1,10 @@
 #implement a program that enables a user to place an order
-import keyboard
-import system
 
+import sys
+import keyboard
+# import 
+readkey = keyboard.read_key()
+print(readkey)
 # imp
 total_amt = 0
 #S1: Prompting them for "Item: " one per line {Assume that every item on the menu will be titlecased.}
@@ -22,7 +25,7 @@ def main(total_amt):
         return True
         print("ctrl d")
     else:
-        system.exit()
+        sys.exit()
     # except EOFError as e:
     #     print(e)
     # elif KeyboardInterrupt:
@@ -54,6 +57,9 @@ main(total_amt)
 #Doubts
 """
 1. How to exit program when ctrl + D is hit
+2.  modules keyboard (modules which are installed from pip are not working)
+3. Check50 program is not working
+
 
 check50 cs50/problems/2022/python/taqueria
 """
