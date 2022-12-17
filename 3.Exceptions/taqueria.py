@@ -4,6 +4,7 @@ import sys
 import keyboard
 # import 
 readkey = keyboard.read_key()
+
 print(readkey)
 # imp
 total_amt = 0
@@ -16,20 +17,16 @@ def main(total_amt):
                 # print(f"{menu[order]} yes")
                 total_amt += menu[order]
                 total_amt = float(total_amt)
-                print(f"Total: ${total_amt}") #, end ="\n"
+                print(f"Total: ${total_amt.__round__(2)}") #, end ="\n"
             
             if keyboard.read_key() == "a":
                 print("You pressed 'a'.")
                 break
     except EOFError:
         return True
-        print("ctrl d")
+        # print("ctrl d")
     else:
         sys.exit()
-    # except EOFError as e:
-    #     print(e)
-    # elif KeyboardInterrupt:
-# elif 
 
     
     
@@ -57,8 +54,6 @@ main(total_amt)
 #Doubts
 """
 1. How to exit program when ctrl + D is hit
-2.  modules keyboard (modules which are installed from pip are not working)
-3. Check50 program is not working
 
 
 check50 cs50/problems/2022/python/taqueria
