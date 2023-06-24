@@ -21,10 +21,7 @@ def main(all_items, user_items): #=all_items, user_items=user_items):
         items = input("").upper()
         user_items.append(items)
 
-        # pdb.set_trace()
-        # if i == 4:
-        #     return all_items,items
-# all_items.
+
 
 
 try:

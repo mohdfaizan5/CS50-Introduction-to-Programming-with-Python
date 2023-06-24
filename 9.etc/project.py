@@ -97,7 +97,7 @@ def resolution(found_resolutions):
         }
     print("\nAvailable resolutions")
 
-    for _ in found_resolutions:python generate_csvs.py PS_No_6.pdf 3 43
+    for _ in found_resolutions:
         if _ in supported_resolution:
             print(f"  {supported_resolution[_]}")
 
